@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1671" started-at="2019-08-06T14:19:22Z" finished-at="2019-08-06T14:19:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1671" started-at="2019-08-06T14:19:22Z" finished-at="2019-08-06T14:19:24Z">
+      <class name="StepDefinition.dataDrivenLoginStepDef">
+        <test-method status="PASS" signature="userOn_loginPage()[pri:0, instance:StepDefinition.dataDrivenLoginStepDef@7f690630]" name="userOn_loginPage" is-config="true" duration-ms="45679" started-at="2019-08-06T14:18:36Z" finished-at="2019-08-06T14:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userOn_loginPage -->
+        <test-method status="PASS" signature="click()[pri:0, instance:StepDefinition.dataDrivenLoginStepDef@7f690630]" name="click" duration-ms="1037" started-at="2019-08-06T14:19:22Z" finished-at="2019-08-06T14:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method status="FAIL" signature="user_entersdata(java.lang.String, java.lang.String)[pri:0, instance:StepDefinition.dataDrivenLoginStepDef@7f690630]" name="user_entersdata" duration-ms="0" started-at="2019-08-06T14:19:23Z" finished-at="2019-08-06T14:19:23Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [user_entersdata] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [user_entersdata] with [class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_entersdata -->
+        <test-method status="PASS" signature="browser_quit()[pri:0, instance:StepDefinition.dataDrivenLoginStepDef@7f690630]" name="browser_quit" is-config="true" duration-ms="732" started-at="2019-08-06T14:19:26Z" finished-at="2019-08-06T14:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_quit -->
+      </class> <!-- StepDefinition.dataDrivenLoginStepDef -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

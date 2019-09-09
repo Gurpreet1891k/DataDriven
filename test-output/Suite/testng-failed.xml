@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="StepDefinition.dataDrivenLoginStepDef">
+        <methods>
+          <include name="user_entersdata"/>
+          <include name="clickButton"/>
+        </methods>
+      </class> <!-- StepDefinition.dataDrivenLoginStepDef -->
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="StepDefinition.dataDrivenLoginStepDef">
+        <methods>
+          <include name="closing_of_the_browser"/>
+          <include name="userOn_loginPage"/>
+          <include name="user_entersdata"/>
+        </methods>
+      </class> <!-- StepDefinition.dataDrivenLoginStepDef -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
